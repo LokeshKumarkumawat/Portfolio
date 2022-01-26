@@ -14,7 +14,7 @@ import Fade from 'react-reveal/Fade';
 const Design = () => {
     return (
 
-        <Fade right>
+        // <Fade top>
 
         <Wrap>
 
@@ -42,7 +42,7 @@ const Design = () => {
             </Container>
         </Wrap>
 
-        </Fade>
+        // </Fade>
 
 
     )

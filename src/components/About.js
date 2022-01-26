@@ -13,7 +13,7 @@ const About = () => {
 
 
     return (
-        <Fade left>
+        // <Fade top>
         <Wrap>
            
             <ItemText>
@@ -50,7 +50,7 @@ const About = () => {
 
         </Wrap>
 
-        </Fade>
+        // </Fade>
 
     )
 }
@@ -73,7 +73,8 @@ margin-bottom:70px;
 @media (max-width: 768px){
     flex-direction: column;
     text-align: center;
-    padding-top: 100px
+    
+    margin-top: 18vh;
     
    
 }

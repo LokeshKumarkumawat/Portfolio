@@ -18,7 +18,7 @@ import Fade from 'react-reveal/Fade';
 const Projects = () => {
     return (
 
-        <Fade left>
+        // <Fade top>
 
         <Wrap>
 
@@ -96,7 +96,7 @@ const Projects = () => {
             </Container>
 
         </Wrap>
-        </Fade>
+        // </Fade>
     )
 }
 

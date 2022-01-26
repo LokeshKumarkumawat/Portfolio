@@ -17,7 +17,7 @@ import Fade from 'react-reveal/Fade';
 
 const Language = () => {
     return (
-        <Fade right>
+        // <Fade top>
             <Wrap>
 
                 <ItemText>
@@ -50,7 +50,7 @@ const Language = () => {
 
             </Wrap>
 
-        </Fade>
+        // </Fade>
 
     )
 }

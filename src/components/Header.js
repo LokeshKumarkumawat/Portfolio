@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import logo from '../assets/logo.svg'
+import logo from '../assets/logo2.png'
 import Fade from 'react-reveal/Fade';
 
 
@@ -13,9 +13,9 @@ const Header = () => {
             <Fade top>
 
          
-            <a>
+     
                 <img src={logo} alt="logo" />
-            </a>
+
             </Fade>
 
             <Fade top>
@@ -67,9 +67,15 @@ padding: 0 15px;
 top:0;
 left:0;
 right:0;
-a{
-    margin-top:10px;
-}
+
+    img{
+        width:60px;
+        height:61px;
+ 
+        padding:8px 5px;
+    }
+
+
 
 z-index:1;
 `

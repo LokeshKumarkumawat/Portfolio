@@ -34,7 +34,7 @@ import Fade from 'react-reveal/Fade';
 
 const LibrariesFrameworks = () => {
     return (
-        <Fade right>
+        // <Fade top>
             <Wrap>
 
                 <ItemText>
@@ -69,7 +69,7 @@ const LibrariesFrameworks = () => {
 
             </Wrap>
 
-        </Fade>
+        // </Fade>
 
     )
 }

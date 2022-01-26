@@ -13,23 +13,24 @@ import Fade from 'react-reveal/Fade';
 const Home = () => {
 
     return (
-        <Fade top>
             <Wrap>
                 <ItemText>
 
                     <h1>Hey, I'm Lokesh</h1>
                     <br />
 
-                    <h3 style={{ color: '#3B82F6' }}>     <Typewriter
+                    <h3>I speak&nbsp;</h3>
+
+                    <h3 style={{ color: '#3B82F6' }}>  <Typewriter
                         options={{
                             autoStart: true,
                             loop: true,
                             delay: 40,
                             strings: [
-                                "I speak Javascript",
-                                "I speak Node.js",
-                                "I speak MongoDB",
-                                "I speak React.js",
+                                " Javascript",
+                                " Node.js",
+                                " MongoDB",
+                                " React.js",
                             ]
                         }}
                     />  </h3>
@@ -49,6 +50,7 @@ const Home = () => {
                     <br />
                     <br />
 
+                    <Fade right>
 
                     <ButtonGroup>
                         <LeftButton>
@@ -60,6 +62,9 @@ const Home = () => {
                             <img src={github} alt="linkedIn" />
                         </RightButton>
                     </ButtonGroup>
+
+        </Fade>
+
 
 
                 </ItemText>
@@ -76,7 +81,6 @@ const Home = () => {
 
             </Wrap>
 
-        </Fade>
 
     )
 }
@@ -91,7 +95,7 @@ flex:0.5;
 `
 
 const Wrap = styled.div`
-padding-top: 20vh;
+padding-top: 24vh;
 overflow-x:hidden;
 display:flex;
 align-items: center;
@@ -100,7 +104,7 @@ align-items: center;
 @media (max-width: 768px){
     flex-direction: column;
     text-align: center;
-    padding-top: 100px
+    padding-top: 70px
 }
 
 
@@ -127,6 +131,19 @@ p{
     line-height:1.625;
 }
 
+h3{
+    display: inline-block;
+}
+
+@media (max-width: 768px){
+    h3{
+        display: inline;
+    }
+    p{
+    margin-top:-35px;
+
+    }
+}
 
 
 `
