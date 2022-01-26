@@ -82,11 +82,8 @@ h3{
 
 
 @media (max-width: 768px){
-
-
-    width:70%;
+    width:90%;
     text-align: center;
-
 }
 
 
@@ -104,7 +101,7 @@ width:10%;
     display:flex;
     align-items:center;
 justify-content:space-between;
-width:20%;
+width:40%;
     
     
 }

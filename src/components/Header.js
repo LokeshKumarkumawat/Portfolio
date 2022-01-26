@@ -2,46 +2,63 @@ import React from 'react'
 import styled from 'styled-components'
 import logo from '../assets/logo2.png'
 import Fade from 'react-reveal/Fade';
+import { TiThMenu } from 'react-icons/ti';
+import {IconContext} from "react-icons";
+
+
 
 
 const Header = () => {
     return (
-      
+
 
 
         <Container>
             <Fade top>
 
-         
-     
+
+
                 <img src={logo} alt="logo" />
 
             </Fade>
 
             <Fade top>
-            <Menu>
-                <a href="#">about</a>
-                <a href="#">skills</a>
-                <a href="#">projects</a>
-                <a href="#">designs</a>
-                <a href="#">contact</a>
-            </Menu>
+                <Menu>
+                    <a href="#">about</a>
+                    <a href="#">skills</a>
+                    <a href="#">projects</a>
+                    <a href="#">designs</a>
+                    <a href="#">contact</a>
+                </Menu>
 
             </Fade>
 
             <Fade top>
-            <ButtonGroup>
-                <LeftButton>
-                    RESUME
-                    <a href=""></a>
+                <ButtonGroup>
+                    <LeftButton>
+                        RESUME
+                        <a href=""></a>
 
-                </LeftButton>
+                    </LeftButton>
 
-            </ButtonGroup>
+                </ButtonGroup>
+
+
 
             </Fade>
+
+
+
+
+
+            <IconContext.Provider value={{ color: "blue",  size:"2em"}}>
+            <Me>
+                <TiThMenu />
+            </Me>
+            </IconContext.Provider>
         </Container>
-       
+
+
 
     )
 }
@@ -50,7 +67,22 @@ export default Header;
 
 
 
+const Me = styled.div`
 
+display:none;
+
+@media (max-width: 768px){
+    display:inline;
+
+
+
+
+}
+
+
+
+
+`
 
 
 
@@ -63,6 +95,7 @@ align-items:center;
 justify-content:space-between;
 background: #232323;
 padding: 0 15px;
+
 
 top:0;
 left:0;
