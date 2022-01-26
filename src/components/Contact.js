@@ -8,6 +8,8 @@ import { SiLinkedin } from 'react-icons/si';
 import { SiGithub } from 'react-icons/si';
 import { SiInstagram } from 'react-icons/si';
 import Fade from 'react-reveal/Fade';
+import { IconContext } from "react-icons";
+
 
 
 
@@ -25,6 +27,8 @@ const Contact = () => {
                 <br />
                 <br />
 
+
+
             </ItemText>
 
            
@@ -32,9 +36,14 @@ const Contact = () => {
 
             
             <SmallDiv>
+            <IconContext.Provider value={{ color: "blue", size: "1.3em" }}>
+
                 <a href=""> <SiLinkedin /></a>
                 <a href=""> <SiGithub /></a>
                 <a href=""> <SiInstagram /></a>
+
+                </IconContext.Provider>
+
             </SmallDiv>
             
         </Wrap>
@@ -55,7 +64,8 @@ display:flex;
 flex-direction: column;
 align-items:center;
 overflow-x:hidden;
-margin-bottom:10px;
+margin-bottom:8vh;
+
 
 
 @media (max-width: 768px){

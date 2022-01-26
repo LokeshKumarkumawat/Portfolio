@@ -1,9 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
-import logo from '../assets/logo2.png'
+import logo from '../assets/logo3.png'
 import Fade from 'react-reveal/Fade';
 import { TiThMenu } from 'react-icons/ti';
-import {IconContext} from "react-icons";
+import { IconContext } from "react-icons";
 
 
 
@@ -51,11 +51,14 @@ const Header = () => {
 
 
 
-            <IconContext.Provider value={{ color: "blue",  size:"2em"}}>
-            <Me>
-                <TiThMenu />
-            </Me>
+            <IconContext.Provider value={{ color: "blue", size: "2em" }}>
+                <Me>
+                    <Fade top>
+                        <TiThMenu />
+                    </Fade>
+                </Me>
             </IconContext.Provider>
+
         </Container>
 
 

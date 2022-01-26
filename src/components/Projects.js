@@ -8,6 +8,7 @@ import Profile from '../assets/pppp2.png'
 import Tesla from '../assets/tesla1.png'
 import Facebook from '../assets/facebook.png'
 import Fade from 'react-reveal/Fade';
+import { IconContext } from "react-icons";
 
 
 
@@ -22,21 +23,21 @@ const Projects = () => {
 
         <Wrap>
 
-           
-      
+
+
             <ItemText>
                 <h3>Project</h3>
             </ItemText>
 
-           
 
 
-          
 
-         
+
+
+
 
             <Container>
-    
+
                 <Child>
 
                     <img src={Profile} alt="" />
@@ -44,18 +45,19 @@ const Projects = () => {
                     <h3>My Portfolio</h3>
                     <p>Portfolio built with the React.js. Created the UI wireframes in Figma and implemented the responsive design. Built custom & reusable components for elements like navbar and footer. Used styled-components for implementing a mobile-first responsive UI for the entire app.</p>
                     <Link>
+                        <IconContext.Provider value={{ color: "blue", size: "1.3em" }}>
 
-                        <a href="">< CgWebsite /></a>
-                        <man> <HiOutlineDotsVertical /> </man>
+                            <a href="">< CgWebsite /></a>
+                            <man> <HiOutlineDotsVertical /> </man>
 
-                        <a href="">< BsGithub /></a>
-
+                            <a href="">< BsGithub /></a>
+                        </IconContext.Provider>
                     </Link>
 
                 </Child>
 
 
-       
+
 
 
                 <Child>
@@ -65,12 +67,12 @@ const Projects = () => {
                     <h3>Tesla</h3>
                     <p>Tesla clone built with the React.js. Created the UI wireframes in Figma and implemented the responsive design. Built custom & reusable components for elements like navbar and footer. Used styled-components for implementing a mobile-first responsive UI for the entire app.</p>
                     <Link>
+                        <IconContext.Provider value={{ color: "blue", size: "1.3em" }}>
+                            <a href="">< CgWebsite /></a>
+                            <man> <HiOutlineDotsVertical /> </man>
 
-                        <a href="">< CgWebsite /></a>
-                        <man> <HiOutlineDotsVertical /> </man>
-
-                        <a href="">< BsGithub /></a>
-
+                            <a href="">< BsGithub /></a>
+                        </IconContext.Provider>
                     </Link>
 
                 </Child>
@@ -83,10 +85,14 @@ const Projects = () => {
                     <p>Facebook clone built with the MERN stack. Implemented google auth using express and bcrypt for password encryption. Created a global predictable state container for the frontend using ReduxJS. Created the UI wireframes in Figma and implemented the responsive design. Designed schema for no-SQL DB (mongodb) using the mongoose.</p>
                     <Link>
 
-                        <a href="">< CgWebsite /></a>
-                        <man> <HiOutlineDotsVertical /> </man>
+                        <IconContext.Provider value={{ color: "blue", size: "1.3em" }}>
 
-                        <a href="">< BsGithub /></a>
+                            <a href="">< CgWebsite /></a>
+                            <man> <HiOutlineDotsVertical /> </man>
+
+                            <a href="">< BsGithub /></a>
+
+                        </IconContext.Provider>
 
                     </Link>
 
