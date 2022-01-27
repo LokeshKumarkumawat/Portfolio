@@ -1,10 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
 import comming from '../assets/comming.svg'
-import { BsGithub } from 'react-icons/bs';
-import { CgWebsite } from 'react-icons/cg';
-import { HiOutlineDotsVertical } from 'react-icons/hi';
-import Fade from 'react-reveal/Fade';
+
 
 
 

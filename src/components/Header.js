@@ -24,11 +24,11 @@ const Header = () => {
 
             <Fade top>
                 <Menu>
-                    <a href="#">about</a>
-                    <a href="#">skills</a>
-                    <a href="#">projects</a>
-                    <a href="#">designs</a>
-                    <a href="#">contact</a>
+                    <a href="#g">about</a>
+                    <a href="#g">skills</a>
+                    <a href="#g">projects</a>
+                    <a href="#g">designs</a>
+                    <a href="#g">contact</a>
                 </Menu>
 
             </Fade>
@@ -37,7 +37,7 @@ const Header = () => {
                 <ButtonGroup>
                     <LeftButton>
                         RESUME
-                        <a href=""></a>
+                        <a href="g"></a>
 
                     </LeftButton>
 

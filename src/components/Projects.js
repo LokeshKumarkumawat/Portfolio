@@ -1,13 +1,11 @@
 import React from 'react'
 import styled from 'styled-components';
-import github from '../assets/github.svg'
 import { BsGithub } from 'react-icons/bs';
 import { CgWebsite } from 'react-icons/cg';
 import { HiOutlineDotsVertical } from 'react-icons/hi';
 import Profile from '../assets/pppp2.png'
 import Tesla from '../assets/tesla1.png'
 import Facebook from '../assets/facebook.png'
-import Fade from 'react-reveal/Fade';
 import { IconContext } from "react-icons";
 
 
@@ -47,10 +45,10 @@ const Projects = () => {
                     <Link>
                         <IconContext.Provider value={{ color: "blue", size: "1.3em" }}>
 
-                            <a href="">< CgWebsite /></a>
+                            <a href="google.com">< CgWebsite /></a>
                             <man> <HiOutlineDotsVertical /> </man>
 
-                            <a href="">< BsGithub /></a>
+                            <a href="google.com">< BsGithub /></a>
                         </IconContext.Provider>
                     </Link>
 
@@ -68,10 +66,10 @@ const Projects = () => {
                     <p>Tesla clone built with the React.js. Created the UI wireframes in Figma and implemented the responsive design. Built custom & reusable components for elements like navbar and footer. Used styled-components for implementing a mobile-first responsive UI for the entire app.</p>
                     <Link>
                         <IconContext.Provider value={{ color: "blue", size: "1.3em" }}>
-                            <a href="">< CgWebsite /></a>
+                            <a href="google.com">< CgWebsite /></a>
                             <man> <HiOutlineDotsVertical /> </man>
 
-                            <a href="">< BsGithub /></a>
+                            <a href="google.com">< BsGithub /></a>
                         </IconContext.Provider>
                     </Link>
 
@@ -87,10 +85,10 @@ const Projects = () => {
 
                         <IconContext.Provider value={{ color: "blue", size: "1.3em" }}>
 
-                            <a href="">< CgWebsite /></a>
+                            <a href="google.com">< CgWebsite /></a>
                             <man> <HiOutlineDotsVertical /> </man>
 
-                            <a href="">< BsGithub /></a>
+                            <a href="google.com">< BsGithub /></a>
 
                         </IconContext.Provider>
 
@@ -248,10 +246,6 @@ margin:10px 8px;
 
 
 
-
-`
-
-const Buttonleft = styled.div`
 
 `
 
